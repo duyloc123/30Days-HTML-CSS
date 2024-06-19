@@ -1,0 +1,492 @@
+/* div{
+    background-color: rgb(243, 48, 48);
+    width: 200px;
+    height: 100px;
+    display: block;
+}
+
+span{
+    background-color: rgb(48, 211, 230);
+    width: 200px;
+    height: 100px;
+    display: block;
+} */
+
+/* #greeting p {
+    background-color: hsl(60, 83%, 74%);
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p {
+    display:block;
+} */
+
+/* <!-- Pseudo Elements --> */
+/* h1::first-letter{
+    font-size:5rem;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color:hsl(60, 87%, 72%);
+}
+
+p::selection{
+    color: white;
+    background-color:hsl(180, 88%, 51%);
+}
+
+
+#fruits li::after{
+    content: '//'
+}
+#fruits li::marker{
+    content: '...'
+} */
+
+/* Pagination */
+/* .pagination{
+    text-align: center;
+}
+
+.pagination a{
+    font-size:1.2rem;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+    color:black;
+}
+
+.pagination a.active{
+    background-color:hsl(180, 87%, 78%);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active){
+    background-color:hsl(0, 1%, 63%);
+    border-radius: 5px;
+} */
+
+/* -----------Drop Menu ---------------*/
+/* .dropDown {
+    padding: 10px;
+}
+
+.dropDown button{
+    font-size:1.5rem;
+    padding:10px;
+    color:hsl(208, 69%, 81%);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+}
+
+
+.dropDown a{
+    color:black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+
+.dropDown .content{
+    display: none;
+    background-color:hsl(160, 82%, 76%);
+    position:absolute;
+    min-width: 150px;
+    box-shadow: 2px 2px 3px hsla(0, 1%, 26%, 0.786);
+}
+
+.dropDown:hover .content{
+    display: block;
+}
+
+.dropDown:hover button{
+    opacity: 0.5;
+}
+
+.dropDown a:hover{
+    background-color: hsl(0, 0%, 80%);
+} */
+
+/* ------------ Navigation Bar */
+/* h1{
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 54%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color:hsl(0,0%,20%);
+}
+.navbar li {
+    float: left;
+}
+main{
+    padding: 15px;
+} */
+
+/* Layout Website */
+/* *{
+    box-sizing: border-box;
+} */
+/* body{
+    margin: 0;
+    padding: 0;
+} */
+/* header{
+    background-color:rgb(152, 152, 152);
+    text-align: center;
+    padding: 10px;
+}
+.navbar{
+    background-color:rgb(89, 89, 89);
+    padding: 15px;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float:left;
+    padding: 10px;
+}
+footer{
+    background-color: rgb(152,152,152);
+    display: block;
+    clear:both;
+    padding: 10px;
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    aside,section,article{
+        width: 100%;
+    }
+} */
+
+/* Image Gallery */
+/* .gallery{
+    display: inline-block;
+    border: 1px solid hsl(0, 0%, 66%);
+    margin: 5px;
+    width: 200px;
+}
+.gallery .description{
+    text-align: center;
+    padding: 5px;
+}
+.gallery:hover{
+    border: 1px solid hsl(0, 0%, 11%);
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+} */
+
+/* Icons */
+/* .icons{
+    margin: 10px;
+    text-align: center;
+}
+.fa-solid.fa-house.fa-2xl{
+    color: gray;
+    margin-right: 10px;
+}
+.fa-twitter{
+    color:hsl(180, 92%, 58%);
+    margin-right: 10px;
+}
+.fa-youtube{
+    color:hsl(0, 100%, 55%);
+    margin-right: 10px;
+}
+.fa-facebook{
+    color:hsl(240, 95%, 57%);
+    margin-right: 10px;
+} */
+
+/* Flex */
+/* .container{
+    display: flex;
+    height: 700px;
+    border: 10px solid black; */
+    /* flex-direction:;  Trải thành hàng row trải thành cột col*/
+             /*  justify-content : Trải dọc theo chiều x 
+                 => flex-start: dính liền ở đầu trang >< flex-end: dính liền ở cuối trang
+                 => space-between: dãn cách ở giữa ra >< space-around (Khác nhau ở chỗ between từ phẩn tử thứ 1 không dãn)
+                 => space-event: không gian đồng đều */
+    /* align-items : Trải dọc theo chiều y
+                => baseLine: căn chỉnh chúng có cùng kích thước */
+                
+/* } */
+/* .box{
+    width: 150px;
+    height: 150px;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 10px;
+}
+#box1{
+    background-color: hsl(0, 98%, 62%);
+}
+#box2{
+    background-color:hsl(180, 88%, 63%);
+}
+#box3{
+    background-color: hsl(120, 87%, 64%);
+}
+#box4{
+    background-color: hsl(271, 97%, 69%);
+} */
+
+/* Transform */
+/* #box1{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 10em;
+    text-align: center;
+    background-color: rgb(97, 248, 97);
+
+    transform: translate(50px,50px); 
+} */
+
+/* .box{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+} */
+/* .blue{ */
+    /* transition-property: background-color; // liệt kê các thuộc tính muốn áp dụng animation
+    transition-duration: 2s; // Khoảng thời gian animation thực thi là bao nhiêu
+    transition-delay: 2s // Thay đổi thời gian khi thực hiện duration
+    transition-timing-function: ease-in-out // Hàm tính thời điểm thuộc tính đó có giá trị là bao nhiêu  */
+    /* transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    background-color: blue;
+    
+} */
+/* .blue:hover{
+    width: 250px;
+    background-color:red;
+    border-bottom: 5px solid;
+}
+.green{
+    background-color: green;
+} */
+
+/*  */
+/* .menu{
+    list-style-type: none;
+}
+.menu li{
+    display: inline-block;
+    position: relative;
+}
+.menu li::after{
+    width:0%;
+    height: 3px;
+    background-color: hsl(180, 87%, 64%);
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: width 1s ease-in-out;
+}
+.menu li:hover::after{
+    width:100%;
+} */
+
+/* .box{
+    height: 100px;
+    margin: 10px;
+    border: 5px solid;
+    animation-name: loading;
+    animation-duration: 2s; */
+    /* animation-iteration-count: infinite; Số vòng lặp lại Infinite là vô tận */
+    /* animation-direction: alternate;  Chuyển đổi từ form tới to mượt mà hơn*/
+/* } */
+
+/* @keyframes loading{
+    from{
+        width:0px;
+        background-color:hsl(180, 89%, 78%);
+    }
+    to{
+        width:350px;
+        background-color:hsl(180, 100%, 50%);
+    }
+} */
+
+/*  */
+/* .box{
+    height:50px;
+    width: 50px;
+    border-top: 2px solid hsl(0, 98%, 61%);
+    border-bottom: 2px solid blue;
+    border-left: 2px solid yellow;
+    border-right: 2px solid green;
+    margin: 20px;
+    border-radius:50%;
+    animation: loading 2s infinite linear;
+}
+
+@keyframes loading{
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+/* Đơn vị đo  */
+/* em: tính theo cái thẻ cha font size , width nó sẽ tương ứng với font size của element của nó */
+/* html{
+    font-size: 20px;
+}
+.container{
+    border: 2px solid black;
+    width: 300px;
+    height: 500px;
+    font-size: 12px;
+} */
+
+/* rem viết tắt của từ viết tắt root em , nó sẽ lấy theo thẻ html nếu không thay đổi thì giá trị mặc định
+sẽ là 16px*/
+/* vw và vh nó sẽ tương ứng với % của trang web  */
+
+/* Công thức tính rem: 100% = 16px
+                        ?% = 10px; */
+/* Thuộc tính một đoạn dài chỉ hiển thị 3 dòng và ...     
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; */
+:root{
+    --primary-color: hsla(300, 87%, 79%, 0.787);
+    --second-color: hsla(120, 99%, 32%, 0.659);
+}
+/* var(--primary-color); */
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+/* Background Gradient */
+    /* .box{
+        width: 25rem;
+        height: 25rem;
+        background-image:linear-gradient(to right,hsla(300, 85%, 84%, 0.746),hsla(120, 96%, 29%, 0.266)),url(https://i.pinimg.com/564x/a2/2d/1d/a22d1d8a789a904187dba0f5240a5907.jpg);
+        background-size: cover;
+        border-radius: 50%;
+    } */
+
+                        /* Độ ưu tiên */
+/* (x,y,z) -> (Tag, class or attribute, id */
+/* Tags < Class < Id < Inline < !important */
+
+                        /* Child Selector */
+/* li:first-child{
+    background-color: var(--primary-color);
+}
+li:last-child{
+    background-color: var(--second-color);
+}
+li:nth-child(2){
+    background-color: red;
+}
+li:nth-last-child(1){
+    background-color:aqua;
+}
+li:not(:nth-child(3)){
+    background-color: green;
+}
+li:nth-child(2n + 2){
+    background-color:violet;
+} */
+
+                        /* CSS Selector nâng cao  */
+/* a=[href ^="https"] Bắt đầu có chữ https */
+/* a=[href *=".vn"] Kết thúc bằng .vn */
+/* a=[href *= "www"] Có chữ www */
+/* div[data-type = "value"] */
+/* p::first-letter Chữ cái đầu */
+/* p::first-line Dòng đầu tiên */
+
+                        /* Position */
+/* Position: static / Mặc định tuân theo dòng chảy trang web là từ trên xuống 
+(Không thể set các giá trị như top, left,right,bottom,z-index) */
+/* Relative: Có thể set top,left,right,bottom */
+/* Absoulute: Nếu set thì sẽ nhảy lên và chiếm vị trí đó. Theo vị trí của thẻ cha gần nhất
+có postion : relative,absolute,fixed,sticky */
+/* Fixed: Nếu cuộn scroll thì sẽ không thay đổi */
+/* Sticky: Chỉ hoạt động được trong thẻ div đó */
+/* body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.309);
+}
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.249);
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.modal__content{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    padding: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+
+                        /* Animation  */
+/* Animation-timing-function
+
+    - Ease ( mặc định): Bắt đầu chậm, sau đó tăng tốc và kết thúc chậm
+    - Linear: Duy trì tốc độ đều đặn từ đầu đến cuối
+    - Ease in: Bắt đầu chậm
+    - Ease out: Kết thúc chậm
+    - Ease-in-out: Bắt đầu và kết thúc chậm */
+/* Animation-iteration-count
+
+    - Xác định số lần lặp lại hiệu ứng hoạt hình.
+    - infinite: Lặp lại vô hạn.
+    - 1 (mặc định): Lặp lại một lần.
+    - n: Lặp lại n lần. */
+
+/* Animation-direction:
+
+    - Xác định hướng phát của hiệu ứng hoạt hình.
+    - normal (mặc định): Chạy xuôi.
+    - reverse: Chạy ngược.
+    - alternate: Chạy xuôi đến 100%, sau đó chạy ngược về 0%.
+    - alternate-reverse: Chạy ngược từ 100% về 0%, sau đó chạy xuôi về 100%. */
