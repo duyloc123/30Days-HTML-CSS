@@ -1,0 +1,274 @@
+:root{
+    --color-first: #f1c40f;
+}
+body{
+    height: 100vh;
+    font-family:"Poppins",sans-serif;
+    font-size: 68.5%;
+    line-height: 1;
+}
+.header--menu{
+    width: 100vw;
+    height: 5rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    gap: 10rem;
+    box-shadow: 0 0 4px 1px rgba(128, 128, 128, 0.729);
+}
+.header--menu .menu--list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.header--menu .menu--list a {
+    text-decoration: none;
+    font-size: 1.875em;
+    color: #808080;
+    font-weight: 600;
+    position: relative;
+}
+.header--menu .menu--list a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: black;
+    bottom: -2px;
+    left: 0;
+    position: absolute;
+    transition: width 0.5s;
+}
+.header--menu .menu--list a:hover::after{
+    width: 100%;
+}
+.header--btn{
+    width: 120px;
+    height: 40px;
+    color:#fff;
+    font-size: 14px;
+    background-color: var(--color-first);
+    border:1px solid var(--color-first);
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.5s, color 0.5s;
+}
+.header--btn:hover{
+    transform: scale(1.1);
+    color: #808080;
+}
+.banner{
+    width:1080px;
+    height: 510px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 39px;
+}
+.banner .inline{
+    width: 15%;
+    border: 1px solid var(--color-first);
+    display: flex;
+    margin-bottom: 25px;
+}
+.banner h2{
+    width: 354px;
+    height: 187px;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #808080;
+    line-height: 62.4px;
+    letter-spacing: -2.4px;
+    word-break: break-word;
+    margin-bottom: 17px;
+}
+.banner p{
+    font-size: 14px;
+    color: #808080;
+    line-height: 24.5px;
+    font-weight: 500;
+    letter-spacing: -0.8px;
+    display: inline;
+}
+.banner--btn{
+    height: 40px;
+    width: 148px;
+    margin-top: 40px;
+    background-color: var(--color-first);
+    color:#fff;
+    font-size: 14px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.5s,color 0.5s;
+}
+.banner--btn::after{
+    content: ">";
+    position: relative;
+    right: -5px;
+}
+.banner--btn:hover{
+    transform: scale(1.1);
+    color: #808080;
+}
+.banner--img{
+    width: 570px;
+    height: 500px;
+    object-fit: cover;
+}
+.block--white{
+    width: 1232px;
+    height: 104px;
+    margin: 0 auto;
+}
+.section{
+    width: 1232px;
+    height: 645.7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 31px;
+}
+.section #section--img{
+    width: 578px;
+    height: 519px;
+}
+.section .content--first{
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.section #content--first{
+    width: 192px;
+    height: 172px;
+    border: 1px solid white;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 12px 0px #0000001a;
+}
+.section .content--text{
+    width: 360px;
+    height: 147px;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 12px 0px #0000001a;
+}
+.content--text h2{
+    font-weight: 500;
+    color: var(--color-first);
+    margin: 32px 32px 0 32px;
+    line-height: 1.3px;
+    font-size: 1rem;
+}
+.content--text p{
+    color: #808080;
+    line-height: 28px;
+    font-weight: 500;
+    margin: 14px 32px 32px 32px;
+    font-size: 0.8rem;
+}
+.main--menu{
+    width: 532px;
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.main--menu .span{
+    width: 5%;
+    border: 1px solid var(--color-first);
+    margin-bottom: 14px;
+}
+.main--menu h6{
+    color: var(--color-first);
+    font-weight: 700;
+    margin-bottom: 14px;
+    font-size: 1rem;
+}
+.main--menu h1{
+    font-size: 2rem;
+    color:#808080;
+    font-weight: 600;
+}
+.food{
+    width: 1132px;
+    height: 497px;
+    margin: 0 auto;
+    border: 1px solid white;
+    box-shadow: 0 0 12px 0 #0000001a;
+    border-radius: 14px;
+}
+.food .food--name{
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 106px;
+    margin-top: 2.5rem;
+}
+.food--name a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #f9be3d;
+    padding: 5px 40px;
+    border: 1px solid #f9be3d;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: color 0.5s,box-shadow 0.5s;
+}
+.food--name a:hover{
+    color: #808080;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.food .food--list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.food--list .food--info{
+    width: 178px;
+    height: 212px;
+    border: 1px solid #0000001a;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.food--info .food--title{
+    font-size: 1rem;
+    color: var(--color-first);
+    margin-bottom: 9px;
+    margin-top: 1.2rem;
+    font-weight: 500;
+}
+.food--info .food--content{
+    color: #808080;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 16px;
+    font-size: 0.8rem;
+}
+.food--info .food--price{
+    color: #808080;
+    font-weight: 600;
+    font-size: 1rem;
+    position: relative;
+    bottom: -1rem;
+}
+.food--item .item--name{
+    position: absolute;
+    transform: translate(38px, -58px);
+}
