@@ -1,0 +1,125 @@
+:root{
+    --color-first: #f1c40f;
+}
+body{
+    height: 100vh;
+    font-family:"Poppins",sans-serif;
+    font-size: 68.5%;
+    line-height: 1;
+}
+.header--menu{
+    width: 100vw;
+    height: 5rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    gap: 10rem;
+    box-shadow: 0 0 4px 1px rgba(128, 128, 128, 0.729);
+}
+.header--menu .menu--list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.header--menu .menu--list a {
+    text-decoration: none;
+    font-size: 1.875em;
+    color: #808080;
+    font-weight: 600;
+    position: relative;
+}
+.header--menu .menu--list a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: black;
+    bottom: -2px;
+    left: 0;
+    position: absolute;
+    transition: width 0.5s;
+}
+.header--menu .menu--list a:hover::after{
+    width: 100%;
+}
+.header--btn{
+    width: 120px;
+    height: 40px;
+    color:#fff;
+    font-size: 14px;
+    background-color: var(--color-first);
+    border:1px solid var(--color-first);
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.5s, color 0.5s;
+}
+.header--btn:hover{
+    transform: scale(1.1);
+    color: #808080;
+}
+.banner{
+    width:1080px;
+    height: 510px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 39px;
+}
+.banner .inline{
+    width: 15%;
+    border: 1px solid var(--color-first);
+    display: flex;
+    margin-bottom: 25px;
+}
+.banner h2{
+    width: 354px;
+    height: 187px;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #808080;
+    line-height: 62.4px;
+    letter-spacing: -2.4px;
+    word-break: break-word;
+    margin-bottom: 17px;
+}
+.banner p{
+    font-size: 14px;
+    color: #808080;
+    line-height: 24.5px;
+    font-weight: 500;
+    letter-spacing: -0.8px;
+    display: inline;
+}
+.banner--btn{
+    height: 40px;
+    width: 148px;
+    margin-top: 40px;
+    background-color: var(--color-first);
+    color:#fff;
+    font-size: 14px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.5s,color 0.5s;
+}
+.banner--btn::after{
+    content: ">";
+    position: relative;
+    right: -5px;
+}
+.banner--btn:hover{
+    transform: scale(1.1);
+    color: #808080;
+}
+.banner--img{
+    width: 570px;
+    height: 500px;
+    object-fit: cover;
+}
