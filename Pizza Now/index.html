@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/db6ac4acea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Pizza Now</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header--menu">
+            <div class="header--logo">
+                <img src="https://lh3.googleusercontent.com/NcjBJ6r8-KY9KGLF2r4UazhJ9U2E5pwOaAXFOFtE_t6JdwZB7ZP2bkp2FthQgy74qTIw2Xnz9eBfrGOVW57qaW8BUo55qopmOg=rw" alt="" class="header--img" width="142px" height="22.73px">
+            </div>
+            <ul class="menu--list">
+                <li class="menu--item">
+                    <a href="~">About us</a>
+                </li>
+                <li class="menu--item">
+                    <a href="~">Menu</a>
+                </li>
+                <li class="menu--item">
+                    <a href="~">Promotion</a>
+                </li>
+                <li class="menu--item">
+                    <a href="~">Location</a>
+                </li>
+            </ul>
+            <button class="header--btn">Reservation</button>
+        </div>
+        <div class="banner">
+            <div class="banner--img">
+                <img src="https://lh3.googleusercontent.com/sDzdEMnvG8LtVG-A6aHm-UrlmF30gObps-o-0ZpQHcg415ahdf4hntpjKndpJ6VoIPVlmX2VYbkvzvDIeLri1rao0lJD57QD=rw" alt="" id="banner--img">
+            </div>
+            <div class="banner-content">
+                <div class="inline"></div>
+                <h2>Enjoy our delicious meal and have fun</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint illum dignissimos ullam eaque quibusdam veniam cum iusto quaerat nesciunt consequuntur quam ad impedit nam delectus, sequi totam necessitatibus! Architecto, cum!</p>
+                <button class="banner--btn">Discover Menu</button>
+            </div>
+        </div>
+    </div>
+    <div class="block--white"></div>
+    <div class="section">
+        <div class="section--img">
+            <img src="https://lh3.googleusercontent.com/cCif_WDg8hfPueQu3COeYquqkmWm9TbJLZLRpmYz0FOUPzwQi5_vguhZi1m1wTyfSioaA8b_IsGJtzxc2mc0Qg691oeBhhszHA=rw" alt="" id="section--img">
+        </div>
+        <div class="section--content">
+            <div class="content--first">
+                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8Zz4KICA8cGF0aCBkPSJtMTk3LjIxIDQ5Ny4wNGM0LjE2NDEgNC4xNjQxIDkuNjMyOCA2LjI0NjEgMTUuMTAyIDYuMjQ2MXMxMC45NDEtMi4wNzgxIDE1LjA5OC02LjI0NjFsMjkuODAxLTI5LjgwMSAxLjg5MDYgMS44OTA2YzMuNSAzLjUgOC4wOTM4IDUuMjQ2MSAxMi42OTEgNS4yNDYxIDQuNTk3NyAwIDkuMTkxNC0xLjc0NjEgMTIuNjkxLTUuMjQ2MWwxODkuNjktMTg5LjY5YzctNyA3LTE4LjM4MyAwLTI1LjM4M2wtMS44OTA2LTEuODkwNiAyOS43NDItMjkuNzQyYzguMzI0Mi04LjMyNDIgOC4zMjQyLTIxLjg3NSAwLTMwLjE5OS04LjMyMDMtOC4zMjQyLTIxLjg3NS04LjMzMi0zMC4xOTkgMGwtMjkuNzQyIDI5Ljc0Mi0xLjg5MDYtMS44OTA2Yy03LTcuMDAzOS0xOC4zOTEtNy4wMDM5LTI1LjM4MyAwbC0xODkuNjkgMTg5LjY5Yy03IDctNyAxOC4zODMgMCAyNS4zODNsMS44OTA2IDEuODkwNi0yOS44MDEgMjkuODAxYy04LjMzNTkgOC4zMjgxLTguMzM1OSAyMS44NzUtMC4wMDM5MDYgMzAuMjAzem0yODEuMzEtMjk4LjEyYzQuNDg4My00LjQ4ODMgMTIuMzE2LTQuNDk2MSAxNi44MDkgMCAyLjI0NjEgMi4yNDYxIDMuNDgwNSA1LjIyNjYgMy40ODA1IDguNDAyMyAwIDMuMTcxOS0xLjIzNDQgNi4xNjAyLTMuNDgwNSA4LjQwNjJsLTI5Ljc0MiAyOS43NDItMTYuODA5LTE2LjgwOXptLTI0Ni43IDIxNy41NCAxODkuNjktMTg5LjY5YzEuNjUyMy0xLjY1MjMgMy44MjgxLTIuNDc2NiA1Ljk5NjEtMi40NzY2IDIuMTY4IDAgNC4zNDM4IDAuODI0MjIgNS45OTYxIDIuNDc2NmwzMy45OCAzMy45OGMzLjMwNDcgMy4zMDQ3IDMuMzA0NyA4LjY4MzYgMCAxMS45OTJsLTE4OS42OSAxODkuNjljLTMuMzA0NyAzLjMwNDctOC42ODM2IDMuMzA0Ny0xMS45OTIgMGwtMzMuOTgtMzMuOThjLTMuMzA4Ni0zLjMwNDctMy4zMDg2LTguNjgzNiAwLjAwMzkwNi0xMS45OTJ6bS0yNy45MTQgNTcuMDc4IDI5LjgwMS0yOS44MDEgMTYuODA5IDE2LjgwOS0yOS44MDEgMjkuODAxYy00LjQ4ODMgNC40ODgzLTEyLjMxNiA0LjQ4ODMtMTYuODA5IDAtMi4yNDYxLTIuMjQ2MS0zLjQ4MDUtNS4yMjY2LTMuNDgwNS04LjQwMjMgMC0zLjE3OTcgMS4yMzQ0LTYuMTYwMiAzLjQ4MDUtOC40MDYyeiIvPgogIDxwYXRoIGQ9Im0yMzYuNyAyMjYuNjljMCAyMC45MzggMTcuMDM1IDM3Ljk3MyAzNy45NzMgMzcuOTczczM3Ljk3My0xNy4wMzUgMzcuOTczLTM3Ljk3My0xNy4wMzUtMzcuOTczLTM3Ljk3My0zNy45NzNjLTIwLjk0MSAwLTM3Ljk3MyAxNy4wMzUtMzcuOTczIDM3Ljk3M3ptNjYuNDY5IDBjMCAxNS43MTUtMTIuNzg1IDI4LjUtMjguNSAyOC41LTE1LjcxNSAwLTI4LjUtMTIuNzg1LTI4LjUtMjguNXMxMi43ODUtMjguNSAyOC41LTI4LjVjMTUuNzE1IDAgMjguNSAxMi43ODUgMjguNSAyOC41eiIvPgogIDxwYXRoIGQ9Im01MjUuNjkgMzcwLjdjLTUuODEyNSAwLTExLjI5MyAxLjM1MTYtMTYuMjE5IDMuNjg3NS0zLjk5MjItMTYuNzg1LTE4Ljk3Ny0yOS4wNTktMzYuODg3LTI5LjA1OS0yMC45MzggMC0zNy45NzMgMTcuMDM1LTM3Ljk3MyAzNy45NzNzMTcuMDM1IDM3Ljk3MyAzNy45NzMgMzcuOTczYzYuMTU2MiAwIDExLjQzOC0xLjIxMDkgMTYuMjY2LTMuNTg1OSA0LjA2MjUgMTYuNTkgMTkuMDIgMjguOTUzIDM2Ljg0NCAyOC45NTMgMjAuOTM4IDAgMzcuOTczLTE3LjAzNSAzNy45NzMtMzcuOTczLTAuMDA3ODEyLTIwLjkzNC0xNy4wMzktMzcuOTY5LTM3Ljk3Ny0zNy45Njl6bS04MS42MDkgMTIuNjAyYzAtMTUuNzE1IDEyLjc4NS0yOC41IDI4LjUtMjguNSAxNC42MjkgMCAyNi42MjkgMTAuOTIyIDI4LjI1IDI1LjIzLTcuNjk5MiA2LjY5NTMtMTIuNjY4IDE2LjQyMi0xMy4wNDMgMjcuMzE2LTQuMzY3MiAzLjAwNzgtOS4xMTMzIDQuNDUzMS0xNS4yMDcgNC40NTMxLTE1LjcxMSAwLjAwMzkwNi0yOC41LTEyLjc4MS0yOC41LTI4LjV6bTgxLjYwOSA1My44NzFjLTE1LjcxNSAwLTI4LjUtMTIuNzg1LTI4LjUtMjguNSAwLTE1LjcxNSAxMi43ODUtMjguNSAyOC41LTI4LjVzMjguNSAxMi43ODUgMjguNSAyOC41YzAgMTUuNzExLTEyLjc4OSAyOC41LTI4LjUgMjguNXoiLz4KICA8cGF0aCBkPSJtNTQ2LjU3IDUyOC4zNWMwLTIwLjkzOC0xNy4wMzUtMzcuOTczLTM3Ljk3My0zNy45NzNzLTM3Ljk3MyAxNy4wMzUtMzcuOTczIDM3Ljk3MyAxNy4wMzUgMzcuOTczIDM3Ljk3MyAzNy45NzMgMzcuOTczLTE3LjAzNSAzNy45NzMtMzcuOTczem0tNjYuNDczIDBjMC0xNS43MTUgMTIuNzg1LTI4LjUgMjguNS0yOC41czI4LjUgMTIuNzg1IDI4LjUgMjguNS0xMi43ODUgMjguNS0yOC41IDI4LjVjLTE1LjcxMSAwLTI4LjUtMTIuNzg1LTI4LjUtMjguNXoiLz4KICA8cGF0aCBkPSJtMjcyLjExIDUyOC4zNWMwIDIwLjkzOCAxNy4wMzUgMzcuOTczIDM3Ljk3MyAzNy45NzNzMzcuOTczLTE3LjAzNSAzNy45NzMtMzcuOTczLTE3LjAzNS0zNy45NzMtMzcuOTczLTM3Ljk3My0zNy45NzMgMTcuMDM5LTM3Ljk3MyAzNy45NzN6bTY2LjQ2NSAwYzAgMTUuNzE1LTEyLjc4NSAyOC41LTI4LjUgMjguNXMtMjguNS0xMi43ODUtMjguNS0yOC41IDEyLjc4NS0yOC41IDI4LjUtMjguNSAyOC41IDEyLjc5MyAyOC41IDI4LjV6Ii8+CiAgPHBhdGggZD0ibTMwMi42OCA1MTAuNzVoLTAuMDMxMjVjLTIuNjEzMyAwLTQuNzIyNyAyLjEyMTEtNC43MjI3IDQuNzM0NHMyLjE0MDYgNC43MzQ0IDQuNzUzOSA0LjczNDQgNC43MzQ0LTIuMTIxMSA0LjczNDQtNC43MzQ0YzAuMDAzOTA2LTIuNjEzMy0yLjExNzItNC43MzQ0LTQuNzM0NC00LjczNDR6Ii8+CiAgPHBhdGggZD0ibTI4OC43MSAyMTkuNjNjMi42MTMzIDAgNC43MzQ0LTIuMTIxMSA0LjczNDQtNC43MzQ0cy0yLjEyMTEtNC43MzQ0LTQuNzM0NC00LjczNDRoLTAuMDMxMjVjLTIuNjEzMyAwLTQuNzIyNyAyLjEyMTEtNC43MjI3IDQuNzM0NHMyLjE0MDYgNC43MzQ0IDQuNzUzOSA0LjczNDR6Ii8+CiAgPHBhdGggZD0ibTQ2MS42NiAzNjcuODVoLTAuMDMxMjVjLTIuNjEzMyAwLTQuNzE4OCAyLjEyMTEtNC43MTg4IDQuNzM0NCAwIDIuNjEzMyAyLjEzNjcgNC43MzQ0IDQuNzUgNC43MzQ0IDIuNjEzMyAwIDQuNzM0NC0yLjEyMTEgNC43MzQ0LTQuNzM0NCAwLTIuNjEzMy0yLjExNzItNC43MzQ0LTQuNzM0NC00LjczNDR6Ii8+CiAgPHBhdGggZD0ibTUxOS44NCAzOTAuNTRoLTAuMDMxMjVjLTIuNjEzMyAwLTQuNzE4OCAyLjEyMTEtNC43MTg4IDQuNzM0NHMyLjEzNjcgNC43MzQ0IDQuNzUgNC43MzQ0YzIuNjEzMyAwIDQuNzM0NC0yLjEyMTEgNC43MzQ0LTQuNzM0NCAwLjAwMzkwNy0yLjYxMzMtMi4xMTcyLTQuNzM0NC00LjczNDQtNC43MzQ0eiIvPgogIDxwYXRoIGQ9Im01MjMuNjIgNTI1Ljk3YzIuNjEzMyAwIDQuNzM0NC0yLjEyMTEgNC43MzQ0LTQuNzM0NHMtMi4xMjExLTQuNzM0NC00LjczNDQtNC43MzQ0aC0wLjAzMTI1Yy0yLjYxMzMgMC00LjcyMjcgMi4xMjExLTQuNzIyNyA0LjczNDRzMi4xNDA2IDQuNzM0NCA0Ljc1MzkgNC43MzQ0eiIvPgogIDxwYXRoIGQ9Im0xODguMDIgMzMwLjg3YzAuOTE3OTcgMjAuMzM2IDE3Ljc1OCAzNi4yNTQgMzcuOTEgMzYuMjU0IDAuNTc4MTIgMCAxLjE1NjItMC4wMTU2MjUgMS43MzgzLTAuMDM5MDYyIDIwLjkxNC0wLjk0NTMxIDM3LjE1Ni0xOC43MzQgMzYuMjExLTM5LjY1Mi0wLjk0NTMxLTIwLjkxNC0xOC42OTEtMzcuMTAyLTM5LjY0OC0zNi4yMTEtMTAuMTMzIDAuNDYwOTQtMTkuNDc3IDQuODM1OS0yNi4zMiAxMi4zMjQtNi44MzU5IDcuNDg4My0xMC4zNTIgMTcuMTkxLTkuODkwNiAyNy4zMjR6bTM2LjY0NS0zMC4xODhjMC40Mzc1LTAuMDE5NTMyIDAuODcxMDktMC4wMjczNDQgMS4zMDA4LTAuMDI3MzQ0IDE1LjEyNSAwIDI3Ljc2MiAxMS45NDkgMjguNDUzIDI3LjIxMSAwLjcxMDk0IDE1LjY5OS0xMS40OCAyOS4wNTEtMjcuMTggMjkuNzYyLTE1LjYyOSAwLjc4MTI1LTI5LjA0My0xMS40OC0yOS43NjItMjcuMTg0LTAuMzQ3NjYtNy42MDE2IDIuMjkzLTE0Ljg5MSA3LjQyNTgtMjAuNTA4IDUuMTQ0NS01LjYyNSAxMi4xNTYtOC45MTQxIDE5Ljc2Mi05LjI1Mzl6Ii8+CiAgPHBhdGggZD0ibTIxOC4xNyAzMTkuMjNjMC4xMTMyOCAwIDAuMjI2NTYtMC4wMDM5MDcgMC4zNDc2Ni0wLjAwNzgxMyAyLjYwOTQtMC4xODc1IDQuNTcwMy0yLjQ2ODggNC4zODY3LTUuMDc4MS0wLjE4MzU5LTIuNjA1NS0yLjM4NjctNC41MDc4LTUuMDYyNS00LjM4NjctMi42MDk0IDAuMTg3NS00LjU3MDMgMi40NTMxLTQuMzg2NyA1LjA2MjV2MC4wMzEyNWMwLjE3NTc4IDIuNDg4MyAyLjI1IDQuMzc4OSA0LjcxNDggNC4zNzg5eiIvPgogIDxwYXRoIGQ9Im00MTMuMyA1MDQuMjdjMC41NzgxMiAwIDEuMTU2Mi0wLjAxNTYyNSAxLjczODMtMC4wMzkwNjMgMTAuMTI5LTAuNDYwOTQgMTkuNDc3LTQuODM1OSAyNi4zMi0xMi4zMjggNi44Mzk4LTcuNDg4MyAxMC4zNTItMTcuMTkxIDkuODk0NS0yNy4zMjQtMC45NDUzMS0yMC45MTgtMTguNjQ1LTM3LjEyNS0zOS42NTItMzYuMjE1LTIwLjkxNCAwLjk0NTMxLTM3LjE1NiAxOC43MzQtMzYuMjExIDM5LjY1MiAwLjkxNzk3IDIwLjMzNiAxNy43NTQgMzYuMjU0IDM3LjkxIDM2LjI1NHptLTEuMjY5NS02Ni40MzhjMC40NDE0MS0wLjAxOTUzMSAwLjg4MjgxLTAuMDI3MzQ0IDEuMzE2NC0wLjAyNzM0NCA3LjEyMTEgMCAxMy44OTUgMi42MjUgMTkuMTkxIDcuNDU3IDUuNjIxMSA1LjEzMjggOC45MDIzIDEyLjE0OCA5LjI1IDE5Ljc1NCAwLjM0NzY2IDcuNjAxNi0yLjI5MyAxNC44OTEtNy40MjU4IDIwLjUwOC01LjEzMjggNS42MjExLTEyLjE0OCA4LjkwMjMtMTkuNzU0IDkuMjUtNy42NTYyIDAuMzU5MzgtMTQuODkxLTIuMjk2OS0yMC41MDgtNy40MjU4LTUuNjIxMS01LjEzMjgtOC45MDIzLTEyLjE0OC05LjI1LTE5Ljc1NC0wLjcxMDk0LTE1LjcwNyAxMS40OC0yOS4wNTEgMjcuMTgtMjkuNzYyeiIvPgogIDxwYXRoIGQ9Im00MDUuNTIgNDU2LjM3YzAuMTA1NDcgMCAwLjIxNDg0LTAuMDAzOTA2IDAuMzIwMzEtMC4wMDc4MTMgMi42MDk0LTAuMTc1NzggNC41ODU5LTIuNDQ5MiA0LjQxMDItNS4wNTg2LTAuMTc1NzgtMi42MDk0LTIuNDg0NC00LjYzMjgtNS4wMzkxLTQuNDEwMi0yLjYwOTQgMC4xNzU3OC00LjU4NTkgMi40Mjk3LTQuNDEwMiA1LjAzOTF2MC4wMzEyNWMwLjE2Nzk3IDIuNTAzOSAyLjI0NjEgNC40MDYyIDQuNzE4OCA0LjQwNjJ6Ii8+CiA8L2c+Cjwvc3ZnPgo=" alt="" id="content--first" width="100px">
+                <div class="content--text">
+                    <h2>Heading 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetu adipiscin elit. Ut elit tellus, luctus nec ullamcorper.</p>
+                </div>
+            </div>
+            <div class="content--first">
+                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8Zz4KICA8cGF0aCBkPSJtMjU4LjU0IDM3NS44NWMtMTIuODU5IDAtMjMuMzIgMTAuNDYxLTIzLjMyIDIzLjMyczEwLjQ2MSAyMy4zMiAyMy4zMiAyMy4zMiAyMy4zMi0xMC40NjEgMjMuMzItMjMuMzItMTAuNDYxLTIzLjMyLTIzLjMyLTIzLjMyem0wIDM3LjE2NGMtNy42MzI4IDAtMTMuODQ4LTYuMjE0OC0xMy44NDgtMTMuODQ4IDAtNy42MzI4IDYuMjE0OC0xMy44NDggMTMuODQ4LTEzLjg0OCA3LjYzMjggMCAxMy44NDggNi4yMTQ4IDEzLjg0OCAxMy44NDggMCA3LjYzNjctNi4yMDcgMTMuODQ4LTEzLjg0OCAxMy44NDh6Ii8+CiAgPHBhdGggZD0ibTM4Ny43OSAyMzMuMzdjLTEyLjg1OSAwLTIzLjMyIDEwLjQ1Ny0yMy4zMiAyMy4zMTIgMCAxMi44NTkgMTAuNDYxIDIzLjMyIDIzLjMyIDIzLjMyIDEyLjg1OSAwIDIzLjMyLTEwLjQ2MSAyMy4zMi0yMy4zMiAwLTEyLjg1NS0xMC40NjEtMjMuMzEyLTIzLjMyLTIzLjMxMnptMCAzNy4xNjRjLTcuNjMyOCAwLTEzLjg0OC02LjIxNDgtMTMuODQ4LTEzLjg0OCAwLTcuNjMyOCA2LjIxNDgtMTMuODQ0IDEzLjg0OC0xMy44NDQgNy42MzI4IDAgMTMuODQ4IDYuMjE0OCAxMy44NDggMTMuODQ0IDAgNy42MzY3LTYuMjEwOSAxMy44NDgtMTMuODQ4IDEzLjg0OHoiLz4KICA8cGF0aCBkPSJtNDkyLjg1IDM5NC40M2MtMTIuODU5IDAtMjMuMzIgMTAuNDYxLTIzLjMyIDIzLjMyczEwLjQ2MSAyMy4zMiAyMy4zMiAyMy4zMiAyMy4zMi0xMC40NjEgMjMuMzItMjMuMzItMTAuNDYxLTIzLjMyLTIzLjMyLTIzLjMyem0wIDM3LjE2OGMtNy42MzI4IDAtMTMuODQ4LTYuMjE0OC0xMy44NDgtMTMuODQ4IDAtNy42MzI4IDYuMjE0OC0xMy44NDggMTMuODQ4LTEzLjg0OCA3LjYzMjggMCAxMy44NDggNi4yMTQ4IDEzLjg0OCAxMy44NDggMCA3LjYzMjgtNi4yMTQ4IDEzLjg0OC0xMy44NDggMTMuODQ4eiIvPgogIDxwYXRoIGQ9Im01MzYuODUgMjc1LjU2Yy0xLjg1OTQgMC4yNjU2Mi0zLjM4NjcgMS42MDU1LTMuODg2NyAzLjQxNDEtMS42NzE5IDUuOTcyNy03LjEyMTEgMTAuMTQxLTEzLjI2MiAxMC4xNDEtNy42MzI4IDAtMTMuODQ4LTYuMjE0OC0xMy44NDgtMTMuODQ4IDAtNy42MzI4IDYuMjE0OC0xMy44NDggMTMuNDMtMTMuODcxIDAuMjMwNDcgMC4wMzkwNjIgMC43NTM5MSAwLjA3NDIxOCAwLjk1NzAzIDAuMDgyMDMxIDEuODI4MSAwIDMuNDkyMi0xLjA1MDggNC4yNzczLTIuNzAzMSAwLjgwNDY5LTEuNjkxNCAwLjUzMTI1LTMuNjk5Mi0wLjY4NzUtNS4xMjExLTM3LjExNy00My4xOTUtOTEtNjcuOTY5LTE0Ny44My02Ny45NjktMjcuODM2IDAtNTQuNzg5IDUuODAwOC04MC4xMTcgMTcuMjM4LTEuNTk3NyAwLjcxODc1LTIuNjYwMiAyLjI2OTUtMi43NzM0IDQuMDE1Ni0wLjEwOTM4IDEuNzUzOSAwLjc1MzkxIDMuNDE4IDIuMjUgNC4zMzk4IDQuODMyIDIuOTY0OCA3LjM1MTYgOC40ODA1IDYuNDE4IDE0LjA1NS0wLjYwNTQ3IDMuNjQ4NC0yLjU5MzggNi44Mzk4LTUuNjA1NSA4Ljk4ODMtMy4wMDc4IDIuMTQ4NC02LjY3MTkgMi45OTYxLTEwLjMyNCAyLjM5NDUtNi43MTQ4LTEuMTE3Mi0xMS41NTUtNi44OTA2LTExLjUxMi0xMy43MyAwLjAxNTYyNC0xLjc1NzgtMC45NTMxMy0zLjM3NS0yLjUtNC4yMTA5LTEuNTQ2OS0wLjgzMjAzLTMuNDI5Ny0wLjczODI4LTQuODg2NyAwLjI1MzkxLTUzLjc1NCAzNi4zNTktODUuODQ0IDk2Ljc1LTg1Ljg0NCAxNjEuNTUgMCA1MS4yNDIgMTkuNzU4IDk5LjYzMyA1NS42MjUgMTM2LjI2IDEuMzEyNSAxLjMzOTggMy4yNzM0IDEuNzc3MyA1LjAzMTIgMS4xMjg5IDEuNzQ2MS0wLjY0ODQ0IDIuOTYwOS0yLjI2NTYgMy4wODItNC4xMjUgMC42MDkzOC05LjExNzIgOC4yMDMxLTE2LjI1OCAxNy4yODEtMTYuMjU4IDkuNjA5NCAwIDE3LjQzIDcuODIwMyAxNy40MyAxNy40MyAwIDguMDY2NC01LjUwMzkgMTUuMDEyLTEzLjM3OSAxNi44OTUtMS44MTI1IDAuNDI5NjktMy4yMDcgMS44OTA2LTMuNTUwOCAzLjcyMjctMC4zNDc2NiAxLjgzMiAwLjQxMDE2IDMuNjk5MiAxLjk0MTQgNC43NjU2IDE1LjE1NiAxMC41NzggMzEuNjE3IDE4LjkxNCA0OC45MjYgMjQuNzczIDIuNDgwNSAwLjg0NzY2IDUuMTY4LTAuNDg4MjggNi4wMDM5LTIuOTY0OGw1Ni41MDQtMTY2Ljg2IDU2LjUxMiAxNjYuODdjMC42NzE4OCAxLjk3NjYgMi41MTE3IDMuMjE4OCA0LjQ4NDQgMy4yMTg4IDAuNTAzOTEgMCAxLjAxOTUtMC4wODIwMzEgMS41MTU2LTAuMjUgNzkuMTg4LTI2LjgxMiAxMzIuMzktMTAxIDEzMi4zOS0xODQuNiAwLTM2LjQzLTEwLjE1Mi03MS45ODgtMjkuMzU1LTEwMi44NC0wLjk5MjE5LTEuNTkzOC0yLjgxMjUtMi40NDUzLTQuNjkxNC0yLjE4NzV6bS05Ni45MDYgMjc5LjA3LTU5LjQ2MS0xNzUuNTdjLTAuNjUyMzQtMS45MjE5LTIuNDU3LTMuMjE0OC00LjQ4NDQtMy4yMTQ4cy0zLjgzNTkgMS4yOTMtNC40ODQ0IDMuMjE0OGwtNTkuNDU3IDE3NS41N2MtMTIuMTk1LTQuNDg0NC0yMy45MTQtMTAuMjczLTM0Ljk4OC0xNy4yNzcgNy4zMjAzLTQuODU5NCAxMS45NDktMTMuMTIxIDExLjk0OS0yMi4zMjggMC0xNC44MzItMTIuMDY2LTI2Ljg5OC0yNi44OTgtMjYuODk4LTEwLjc4NSAwLTIwLjIxOSA2LjUwMzktMjQuNDM4IDE1Ljg4Ny0zMC40NDUtMzQuMDE2LTQ3LjExMy03Ny41Mi00Ny4xMTMtMTIzLjQzIDAtNTkuMjA3IDI4LjE2LTExNC41NSA3NS42ODgtMTQ5LjQ4IDIuNzg5MSA3LjY5OTIgOS41MTk1IDEzLjU0MyAxOC4wMzUgMTQuOTU3IDYuMTUyMyAxLjAyMzQgMTIuMzI0LTAuNDA2MjUgMTcuMzg3LTQuMDM1MiA1LjA2NjQtMy42MjExIDguNDIxOS05LjAwMzkgOS40Mzc1LTE1LjE0MSAxLjA5NzctNi42MDE2LTAuNjY3OTctMTMuMTUyLTQuNjM2Ny0xOC4xOTkgMjIuMTI1LTguOTgwNSA0NS40NzctMTMuNTI3IDY5LjUyMy0xMy41MjcgNTEuMjczIDAgMTAwLjA0IDIxLjIwMyAxMzUuMDcgNTguNDQ5LTguNTg5OCAzLjQzNzUtMTQuNjggMTEuODQ4LTE0LjY4IDIxLjY1NiAwIDEyLjg1OSAxMC40NjEgMjMuMzIgMjMuMzIgMjMuMzIgNy4xMzI4IDAgMTMuNzE1LTMuMzIwMyAxOC4wNDMtOC42NjggMTUuNTE2IDI3LjYyNSAyMy42ODQgNTguODAxIDIzLjY4NCA5MC42NjgtMC4wMTE3MTkgNzcuOTQ5LTQ4LjYyOSAxNDcuMy0xMjEuNDkgMTc0LjA0eiIvPgogIDxwYXRoIGQ9Im0yNjUuMTIgMjc1LjUxYy0zLjIxMDkgMy4yMDctNC45NzY2IDcuNDcyNy00Ljk3NjYgMTIuMDE2IDAgNC41MzUyIDEuNzY1NiA4LjgwMDggNC45NzY2IDEyLjAxMiAzLjIxMDkgMy4yMDcgNy40NzI3IDQuOTcyNyAxMi4wMTIgNC45NzI3IDQuNTM1MiAwIDguODAwOC0xLjc2NTYgMTIuMDEyLTQuOTc2NiA2LjYyMTEtNi42MjUgNi42MjExLTE3LjM5OCAwLTI0LjAyMy02LjQyMTktNi40MTgtMTcuNjE3LTYuNDE4LTI0LjAyMyAwem0xNy4zMjQgMTcuMzI0Yy0yLjgzOTggMi44NDc3LTcuNzg5MSAyLjgzOTgtMTAuNjI5IDAtMS40MjE5LTEuNDE0MS0yLjIwMzEtMy4zMDQ3LTIuMjAzMS01LjMxMjUgMC4wMDM5MDYtMi4wMTE3IDAuNzg1MTYtMy44OTQ1IDIuMjAzMS01LjMxNjQgMS40MjE5LTEuNDIxOSAzLjMwNDctMi4yMDMxIDUuMzEyNS0yLjIwMzFzMy44OTQ1IDAuNzgxMjUgNS4zMTI1IDIuMjAzMWMyLjkyOTcgMi45MzM2IDIuOTI5NyA3LjcwMzEgMC4wMDM5MDYgMTAuNjI5eiIvPgogIDxwYXRoIGQ9Im00NTguNzIgMzYxLjQ5YzMuMjEwOS0zLjIwNyA0Ljk3NjYtNy40NzI3IDQuOTc2Ni0xMi4wMTYgMC00LjUzNTItMS43NjU2LTguODA0Ny00Ljk3NjYtMTIuMDEyLTYuNjI1LTYuNjIxMS0xNy40MDItNi42MTcyLTI0LjAyIDAtNi42MjExIDYuNjI1LTYuNjIxMSAxNy4zOTggMCAyNC4wMiAzLjIxMDkgMy4yMDcgNy40NzI3IDQuOTcyNyAxMi4wMTIgNC45NzI3IDQuNTMxMiAwIDguODAwOC0xLjc2MTcgMTIuMDA4LTQuOTY0OHptLTE3LjMyNC0xNy4zMjhjMi45Mjk3LTIuOTI5NyA3LjY5NTMtMi45Mjk3IDEwLjYyOSAwIDEuNDIxOSAxLjQxNDEgMi4yMDMxIDMuMzA0NyAyLjIwMzEgNS4zMTI1IDAgMi4wMDc4LTAuNzgxMjUgMy44OTQ1LTIuMjAzMSA1LjMxMjUtMi44Mzk4IDIuODM5OC03Ljc4OTEgMi44Mzk4LTEwLjYyOSAwLTIuOTMzNi0yLjkyOTctMi45MzM2LTcuNjk1MyAwLTEwLjYyNXoiLz4KICA8cGF0aCBkPSJtNDQ2Ljk1IDQ3Ny4xNWMtNi42MTcyIDYuNjIxMS02LjYxNzIgMTcuMzk4IDAgMjQuMDIgMy4yMDcgMy4yMTA5IDcuNDcyNyA0Ljk3NjYgMTIuMDEyIDQuOTc2NiA0LjUzNTIgMCA4LjgwNDctMS43NjU2IDEyLjAxMi00Ljk3NjYgNi42MTcyLTYuNjIxMSA2LjYxNzItMTcuMzk4IDAtMjQuMDItNi40MTQxLTYuNDIxOS0xNy42MTMtNi40MjE5LTI0LjAyMyAwem0xNy4zMjggMTcuMzI0Yy0yLjgzOTggMi44Mzk4LTcuNzg5MSAyLjgzOTgtMTAuNjI5IDAtMi45MjU4LTIuOTI5Ny0yLjkyNTgtNy42OTUzIDAtMTAuNjI5IDEuNDIxOS0xLjQyMTkgMy4zMDQ3LTIuMjAzMSA1LjMxMjUtMi4yMDMxIDIuMDA3OCAwIDMuODk0NSAwLjc4MTI1IDUuMzEyNSAyLjIwMzEgMi45Mjk3IDIuOTMzNiAyLjkyOTcgNy42OTUzIDAuMDAzOTA3IDEwLjYyOXoiLz4KICA8cGF0aCBkPSJtMzE5Ljg1IDM1MC4wNGMtMy4yMTA5IDMuMjEwOS00Ljk3NjYgNy40NzY2LTQuOTc2NiAxMi4wMTYgMCA0LjUzNTIgMS43NjU2IDguODAwOCA0Ljk3NjYgMTIuMDEyIDMuMjEwOSAzLjIwNyA3LjQ3MjcgNC45NzI3IDEyLjAxMiA0Ljk3MjcgNC41MzUyIDAgOC44MDA4LTEuNzY1NiAxMi4wMTItNC45NzY2IDYuNjIxMS02LjYyMTEgNi42MjExLTE3LjM5OCAwLTI0LjAyMy02LjQyNTgtNi40MTAyLTE3LjYxMy02LjQxMDItMjQuMDIzIDB6bTE3LjMyNCAxNy4zMjRjLTIuODM5OCAyLjg0NzctNy43ODkxIDIuODM5OC0xMC42MjkgMC0xLjQyMTktMS40MTQxLTIuMjAzMS0zLjMwNDctMi4yMDMxLTUuMzEyNSAwLTIuMDA3OCAwLjc4MTI1LTMuODk0NSAyLjIwMzEtNS4zMTI1IDEuNDIxOS0xLjQyMTkgMy4zMDQ3LTIuMjAzMSA1LjMxMjUtMi4yMDMxIDIuMDA3OCAwIDMuODk0NSAwLjc4MTI1IDUuMzEyNSAyLjIwMzEgMi45Mjk3IDIuOTI5NyAyLjkyOTcgNy42OTkyIDAuMDAzOTA2IDEwLjYyNXoiLz4KIDwvZz4KPC9zdmc+Cg==" alt="" id="content--first" width="100px">
+                <div class="content--text">
+                    <h2>Heading 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetu adipiscin elit. Ut elit tellus, luctus nec ullamcorper.</p>
+                </div>
+            </div>
+            <div class="content--first">
+                <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8Zz4KICA8cGF0aCBkPSJtNTYwLjcgMzc3LjU4aC0yOS4yMDN2LTI1Ljg0OGgxNS4xNjhjMi42MTcyIDAgNC43MzQ0LTIuMTE3MiA0LjczNDQtNC43MzQ0di0zOC45MThjMC0yLjYxNzItMi4xMjExLTQuNzM0NC00LjczNDQtNC43MzQ0bC0zNDEuMzItMC4wMDM5MDZjLTIuNjE3MiAwLTQuNzM0NCAyLjExNzItNC43MzQ0IDQuNzM0NHYzOC45MjJjMCAyLjYxNzIgMi4xMjExIDQuNzM0NCA0LjczNDQgNC43MzQ0aDE1LjE2OHYyNS44NDhoLTI5LjIwM2MtMi42MTcyIDAtNC43MzQ0IDIuMTE3Mi00LjczNDQgNC43MzQ0djI4LjYwNWMwIDE0LjkxIDEyLjEzMyAyNy4wNDMgMjcuMDQzIDI3LjA0M2g2Ljg5NDV2MTAwLjE1YzAgMTUuMDcgMTIuMjU4IDI3LjMyNCAyNy4zMjQgMjcuMzI0aDI1Ni4zNGMxNS4wNjYgMCAyNy4zMjQtMTIuMjU0IDI3LjMyNC0yNy4zMjR2LTEwMC4xNWg2Ljg5NDVjMTQuOTE0IDAgMjcuMDQzLTEyLjEzMyAyNy4wNDMtMjcuMDQzdi0yOC42MDVjMC0yLjYxNzItMi4xMjExLTQuNzM0NC00LjczNDQtNC43MzQ0em0tMzUwLjYyLTY0Ljc2NmgzMzEuODV2MjkuNDQ1aC0zMzEuODV6bTMuNTM1MiAxMTUuNjhjLTkuNjkxNCAwLTE3LjU3NC03Ljg3ODktMTcuNTc0LTE3LjU3di0yMy44NjdoMjQuNDY5djQxLjQzOHptMjkwLjU2IDEyNy40N2gtMjU2LjM0Yy05Ljg0MzggMC0xNy44NTItOC4wMTE3LTE3Ljg1Mi0xNy44NTJ2LTE4Ni4zOGgyOTIuMDR2MTg2LjM4YzAgOS44NDM4LTguMDA3OCAxNy44NTItMTcuODUyIDE3Ljg1MnptNTEuNzg5LTE0NS4wNGMwIDkuNjg3NS03Ljg4MjggMTcuNTctMTcuNTcgMTcuNTdoLTYuODk0NXYtNDEuNDM4aDI0LjQ2NXoiLz4KICA8cGF0aCBkPSJtMzk1LjE3IDI1NS42MWgtNy40ODQ0Yy0xMi40NzcgMC0yMi42MjUgMTAuMTUyLTIyLjYyNSAyMi42Mjl2Mi4yMjI3YzAgMi42MTcyIDIuMTIxMSA0LjczNDQgNC43MzQ0IDQuNzM0NCAyLjYxNzIgMCA0LjczNDQtMi4xMTcyIDQuNzM0NC00LjczNDR2LTIuMjIyN2MwLTcuMjU3OCA1LjkwMjMtMTMuMTU2IDEzLjE1Ni0xMy4xNTZoNy40ODQ0YzEwLjEwOSAwIDE4LjMzMi04LjIyMjcgMTguMzMyLTE4LjMyOCAwLTEwLjEwOS04LjIyMjctMTguMzMyLTE4LjMzMi0xOC4zMzJsLTU2LjAwOC0wLjAwMzkwNmMtNS4wODIgMC05LjIxMDktNC4xMzI4LTkuMjEwOS05LjIxMDkgMC01LjA4MiA0LjEzMjgtOS4yMTg4IDkuMjEwOS05LjIxODhoNDUuMTg4YzEwLjMwNSAwIDE4LjY4OC04LjM3ODkgMTguNjg4LTE4LjY4NCAwLTIuNjE3Mi0yLjEyMTEtNC43MzQ0LTQuNzM0NC00LjczNDQtMi42MTcyIDAtNC43MzQ0IDIuMTE3Mi00LjczNDQgNC43MzQ0IDAgNS4wNzgxLTQuMTMyOCA5LjIxMDktOS4yMTQ4IDkuMjEwOWgtNDUuMTg4Yy0xMC4zMDEgMC0xOC42ODQgOC4zODY3LTE4LjY4NCAxOC42ODggMCAxMC4zMDUgOC4zODI4IDE4LjY4NCAxOC42ODQgMTguNjg0aDU2LjAwOGM0Ljg4MjggMCA4Ljg1OTQgMy45NzY2IDguODU5NCA4Ljg1OTQtMC4wMDM5MDYgNC44OTA2LTMuOTgwNSA4Ljg2MzMtOC44NjMzIDguODYzM3oiLz4KICA8cGF0aCBkPSJtMzI1LjIxIDI4NS4yYzIuNjE3MiAwIDQuNzM0NC0yLjExNzIgNC43MzQ0LTQuNzM0NHYtMy4wNTg2YzAtMTYuMTc2LTEzLjE2LTI5LjMzNi0yOS4zMzYtMjkuMzM2aC00OS4zNTVjLTcuNjk1MyAwLTEzLjk1Ny02LjI2MTctMTMuOTU3LTEzLjk1NyAwLTcuNjk1MyA2LjI1NzgtMTMuOTU3IDEzLjk1Ny0xMy45NTcgMi42MTcyIDAgNC43MzQ0LTIuMTE3MiA0LjczNDQtNC43MzQ0cy0yLjEyMTEtNC43MzQ0LTQuNzM0NC00LjczNDRjLTEyLjkxOCAwLTIzLjQyNiAxMC41MTItMjMuNDI2IDIzLjQzIDAgMTIuOTE4IDEwLjUxMiAyMy40MyAyMy40MjYgMjMuNDNoNDkuMzU1YzEwLjk1MyAwIDE5Ljg2MyA4LjkxMDIgMTkuODYzIDE5Ljg2M3YzLjA1ODZjMCAyLjYwOTQgMi4xMjExIDQuNzMwNSA0LjczODMgNC43MzA1eiIvPgogIDxwYXRoIGQ9Im01MDAuNzUgMjQ4LjA3aC00OS4zNTljLTE2LjE3NiAwLTI5LjMzNiAxMy4xNTYtMjkuMzM2IDI5LjMzNnYzLjA1ODZjMCAyLjYxNzIgMi4xMjExIDQuNzM0NCA0LjczNDQgNC43MzQ0IDIuNjE3MiAwIDQuNzM0NC0yLjExNzIgNC43MzQ0LTQuNzM0NHYtMy4wNTg2YzAtMTAuOTUzIDguOTEwMi0xOS44NjMgMTkuODYzLTE5Ljg2M2g0OS4zNTVjMTIuOTE4IDAgMjMuNDI2LTEwLjUxMiAyMy40MjYtMjMuNDNzLTEwLjUxMi0yMy40My0yMy40MjYtMjMuNDNjLTIuNjE3MiAwLTQuNzM0NCAyLjExNzItNC43MzQ0IDQuNzM0NCAwIDIuNjE3MiAyLjEyMTEgNC43MzQ0IDQuNzM0NCA0LjczNDQgNy42OTUzIDAgMTMuOTU3IDYuMjYxNyAxMy45NTcgMTMuOTU3IDAuMDAzOTA3IDcuNjk5Mi02LjI1MzkgMTMuOTYxLTEzLjk0OSAxMy45NjF6Ii8+CiAgPHBhdGggZD0ibTQyMi44OCAzODkuODJjLTE3LjEwOS02Ljc5NjktMzQuODY3LTEuMjg1Mi00Ni44NTUgMTQuMDEyLTExLjk4NC0xNS4zMDEtMjkuNzQ2LTIwLjgxNi00Ni44NTItMTQuMDEyLTE3LjU5IDYuOTg4My0zMy41NDcgMjcuODYzLTI3LjAyIDU3LjE4OCAxMC43NzcgNDguMzkxIDY5LjU0NyA3My40NjUgNzIuMDQzIDc0LjUxMiAwLjU4NTk0IDAuMjQ2MDkgMS4yMDMxIDAuMzY3MTkgMS44MjgxIDAuMzY3MTkgMC42MjEwOSAwIDEuMjQyMi0wLjEyMTA5IDEuODI4MS0wLjM2NzE5IDIuNDk2MS0xLjA0NjkgNjEuMjczLTI2LjEyMSA3Mi4wMzktNzQuNTEyIDYuNTMxMi0yOS4zMi05LjQyNTgtNTAuMTk5LTI3LjAxMi01Ny4xODh6bTE3Ljc3IDU1LjEyOWMtOC42OTkyIDM5LjA4Mi01NC44MiA2Mi40NDUtNjQuNjI1IDY3LjAwNC05LjgwMDgtNC41NTg2LTU1LjkxOC0yNy45MjItNjQuNjI1LTY3LjAwOC01LjMyMDMtMjMuOTA2IDcuMjk2OS00MC43NyAyMS4yNzMtNDYuMzIgMy4zNzg5LTEuMzM5OCA3LjE2MDItMi4xNDA2IDExLjEwNS0yLjE0MDYgOS42Mjg5IDAgMjAuMjExIDQuNzgxMiAyOC4xOCAxOC4xNTIgMC44NTE1NiAxLjQzMzYgMi4zOTg0IDIuMzEyNSA0LjA2NjQgMi4zMTI1IDEuNjY4IDAgMy4yMTQ4LTAuODc4OTEgNC4wNjY0LTIuMzEyNSAxMS4yMzQtMTguODU1IDI3LjY2NC0yMC42MjUgMzkuMjg5LTE2LjAxMiAxMy45NzcgNS41NTA4IDI2LjU5IDIyLjQxNCAyMS4yNyA0Ni4zMjR6Ii8+CiA8L2c+Cjwvc3ZnPgo=" alt="" id="content--first" width="100px">
+                <div class="content--text">
+                    <h2>Heading 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetu adipiscin elit. Ut elit tellus, luctus nec ullamcorper.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block--white"></div>
+    <div class="main--menu">
+        <div class="span"></div>
+        <h6>Our menu</h6>
+        <h1>Explore our best menu</h1>
+    </div>
+    <div class="block--white"></div>
+    <div class="food">
+        <div class="food--name">
+            <a href="~">Pizza</a>
+        </div>
+        <div class="food--list">
+            <div class="food--item">
+                <img src="https://lh3.googleusercontent.com/Q3bdqxqudquWlcFqx61cT4I4zSQnPofX5INXdo464nZi0n1WXQou_6rp3Hx3DOM8emYZD9BPG6wHzqnLY5g9Ol6Wo---vSaB=rw" alt="" class="item--name" width="103px" height="103px">
+                <div class="food--info">
+                    <div class="food--title"><strong>Heading 2</strong></div>
+                    <p class="food--content">Ullam corper mattis, pulvinar dapibus.</p>
+                    <p class="food--price">$6.00</p>
+                </div>
+            </div>
+            <div class="food--item">
+                <img src="https://lh3.googleusercontent.com/Q3bdqxqudquWlcFqx61cT4I4zSQnPofX5INXdo464nZi0n1WXQou_6rp3Hx3DOM8emYZD9BPG6wHzqnLY5g9Ol6Wo---vSaB=rw" alt="" class="item--name" width="103px" height="103px">
+                <div class="food--info">
+                    <div class="food--title"><strong>Heading 2</strong></div>
+                    <p class="food--content">Ullam corper mattis, pulvinar dapibus.</p>
+                    <p class="food--price">$6.00</p>
+                </div>
+            </div>
+            <div class="food--item">
+                <img src="https://lh3.googleusercontent.com/Q3bdqxqudquWlcFqx61cT4I4zSQnPofX5INXdo464nZi0n1WXQou_6rp3Hx3DOM8emYZD9BPG6wHzqnLY5g9Ol6Wo---vSaB=rw" alt="" class="item--name" width="103px" height="103px">
+                <div class="food--info">
+                    <div class="food--title">Heading 2</div>
+                    <p class="food--content">Ullam corper mattis, pulvinar dapibus.</p>
+                    <p class="food--price">$6.00</p>
+                </div>
+            </div>
+            <div class="food--item">
+                <img src="https://lh3.googleusercontent.com/Q3bdqxqudquWlcFqx61cT4I4zSQnPofX5INXdo464nZi0n1WXQou_6rp3Hx3DOM8emYZD9BPG6wHzqnLY5g9Ol6Wo---vSaB=rw" alt="" class="item--name" width="103px" height="103px">
+                <div class="food--info">
+                    <div class="food--title">Heading 2</div>
+                    <p class="food--content">Ullam corper mattis, pulvinar dapibus.</p>
+                    <p class="food--price">$6.00</p>
+                </div>
+            </div>
+            <div class="food--item">
+                <img src="https://lh3.googleusercontent.com/Q3bdqxqudquWlcFqx61cT4I4zSQnPofX5INXdo464nZi0n1WXQou_6rp3Hx3DOM8emYZD9BPG6wHzqnLY5g9Ol6Wo---vSaB=rw" alt="" class="item--name" width="103px" height="103px">
+                <div class="food--info">
+                    <div class="food--title">Heading 2</div>
+                    <p class="food--content">Ullam corper mattis, pulvinar dapibus.</p>
+                    <p class="food--price">$6.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block--white"></div>
+    <div class="food">
+        <div class="food--name">
+            <a href="~">Pasta</a>
+        </div>
+        <div class="food--list">
+            <div class="food--item">
+                <img src="https://lh3.googleusercontent.com/esZ7Uc99H0sNR78hz_GCptqworX2Douchr4cmZALWlYhfWhrQ_zARTSVRzujnOTrbxJygTxYjXrfqYkN479kMkODf5V6pXUZNg=rw" alt="" class="item--name" width="103px" height="103px">
+                <div class="food--info">
+                    <div class="food--title"><strong>Heading 2</strong></div>
+                    <p class="food--content">Ullam corper mattis, pulvinar dapibus.</p>
+                    <p class="food--price">$6.00</p>
+                </div>
+            </div>
+            <div class="food--item">
+                <img src="https://lh3.googleusercontent.com/esZ7Uc99H0sNR78hz_GCptqworX2Douchr4cmZALWlYhfWhrQ_zARTSVRzujnOTrbxJygTxYjXrfqYkN479kMkODf5V6pXUZNg=rw" alt="" class="item--name" width="103px" height="103px">
+                <div class="food--info">
+                    <div class="food--title"><strong>Heading 2</strong></div>
+                    <p class="food--content">Ullam corper mattis, pulvinar dapibus.</p>
+                    <p class="food--price">$6.00</p>
+                </div>
+            </div>
+            <div class="food--item">
+                <img src="https://lh3.googleusercontent.com/esZ7Uc99H0sNR78hz_GCptqworX2Douchr4cmZALWlYhfWhrQ_zARTSVRzujnOTrbxJygTxYjXrfqYkN479kMkODf5V6pXUZNg=rw" alt="" class="item--name" width="103px" height="103px">
+                <div class="food--info">
+                    <div class="food--title">Heading 2</div>
+                    <p class="food--content">Ullam corper mattis, pulvinar dapibus.</p>
+                    <p class="food--price">$6.00</p>
+                </div>
+            </div>
+            <div class="food--item">
+                <img src="https://lh3.googleusercontent.com/esZ7Uc99H0sNR78hz_GCptqworX2Douchr4cmZALWlYhfWhrQ_zARTSVRzujnOTrbxJygTxYjXrfqYkN479kMkODf5V6pXUZNg=rw" alt="" class="item--name" width="103px" height="103px">
+                <div class="food--info">
+                    <div class="food--title">Heading 2</div>
+                    <p class="food--content">Ullam corper mattis, pulvinar dapibus.</p>
+                    <p class="food--price">$6.00</p>
+                </div>
+            </div>
+            <div class="food--item">
+                <img src="https://lh3.googleusercontent.com/esZ7Uc99H0sNR78hz_GCptqworX2Douchr4cmZALWlYhfWhrQ_zARTSVRzujnOTrbxJygTxYjXrfqYkN479kMkODf5V6pXUZNg=rw" alt="" class="item--name" width="103px" height="103px">
+                <div class="food--info">
+                    <div class="food--title">Heading 2</div>
+                    <p class="food--content">Ullam corper mattis, pulvinar dapibus.</p>
+                    <p class="food--price">$6.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block--white"></div>
+    <div class="food">
+        <div class="food--name">
+            <a href="~">Drink</a>
+        </div>
+        <div class="food--list">
+            <div class="food--item">
+                <img src="https://lh3.googleusercontent.com/w7oBtpdR1i3CdvwXPFkvdXanLpv1m6dWi-6tFvXd7UFa_s4k9oBigWJ8MvPKRF11eB1ic7uiTu3OwmjGZKKoE_NiBSweJr_b=rw-w488" alt="" class="item--name" width="103px" height="103px">
+                <div class="food--info">
+                    <div class="food--title"><strong>Heading 2</strong></div>
+                    <p class="food--content">Ullam corper mattis, pulvinar dapibus.</p>
+                    <p class="food--price">$6.00</p>
+                </div>
+            </div>
+            <div class="food--item">
+                <img src="https://lh3.googleusercontent.com/w7oBtpdR1i3CdvwXPFkvdXanLpv1m6dWi-6tFvXd7UFa_s4k9oBigWJ8MvPKRF11eB1ic7uiTu3OwmjGZKKoE_NiBSweJr_b=rw-w488" alt="" class="item--name" width="103px" height="103px">
+                <div class="food--info">
+                    <div class="food--title"><strong>Heading 2</strong></div>
+                    <p class="food--content">Ullam corper mattis, pulvinar dapibus.</p>
+                    <p class="food--price">$6.00</p>
+                </div>
+            </div>
+            <div class="food--item">
+                <img src="https://lh3.googleusercontent.com/w7oBtpdR1i3CdvwXPFkvdXanLpv1m6dWi-6tFvXd7UFa_s4k9oBigWJ8MvPKRF11eB1ic7uiTu3OwmjGZKKoE_NiBSweJr_b=rw-w488" alt="" class="item--name" width="103px" height="103px">
+                <div class="food--info">
+                    <div class="food--title">Heading 2</div>
+                    <p class="food--content">Ullam corper mattis, pulvinar dapibus.</p>
+                    <p class="food--price">$6.00</p>
+                </div>
+            </div>
+            <div class="food--item">
+                <img src="https://lh3.googleusercontent.com/w7oBtpdR1i3CdvwXPFkvdXanLpv1m6dWi-6tFvXd7UFa_s4k9oBigWJ8MvPKRF11eB1ic7uiTu3OwmjGZKKoE_NiBSweJr_b=rw-w488" alt="" class="item--name" width="103px" height="103px">
+                <div class="food--info">
+                    <div class="food--title">Heading 2</div>
+                    <p class="food--content">Ullam corper mattis, pulvinar dapibus.</p>
+                    <p class="food--price">$6.00</p>
+                </div>
+            </div>
+            <div class="food--item">
+                <img src="https://lh3.googleusercontent.com/w7oBtpdR1i3CdvwXPFkvdXanLpv1m6dWi-6tFvXd7UFa_s4k9oBigWJ8MvPKRF11eB1ic7uiTu3OwmjGZKKoE_NiBSweJr_b=rw-w488" alt="" class="item--name" width="103px" height="103px">
+                <div class="food--info">
+                    <div class="food--title">Heading 2</div>
+                    <p class="food--content">Ullam corper mattis, pulvinar dapibus.</p>
+                    <p class="food--price">$6.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block--white"></div>
+    <div class="sale">
+        <div class="info--left">
+            <div class="span">
+            </div>
+            <div class="sale--title">Buy one</div>
+            <h2 class="sale--title2">Get one free on every wednesday</h2>
+            <p class="sale--content">In aliquam a eros id vehicula. Aliquam luctus massa at magna elementum volutpat. Suspendisse facilisis, libero sit amet molestie venenatis, tortor nulla sagittis nunc, at iaculis elit turpis ut eros. Integer nec odio vel.</p>
+            <button class="sale--btn__order">Reserve a table</button>
+        </div>
+        <div class="info--right">
+            <img src="https://lh3.googleusercontent.com/pwjtI7M4GaWVqu0nUihj_A9NR8SOLcqBcht5jefltad9srQQAY53C97VWidnR9YXxFO6e-bdhPn5jGZYGJevXRojfn8614jP=rw" alt="" class="sale--img" width="653px" height="452px">
+        </div>
+    </div>
+    <div class="block--white"></div>
+    <div class="form">
+        <div class="info">
+            <div class="form--span">
+            </div>
+            <div class="form--title">Advance Booking</div>
+            <div class="form--content">Reserve a Table</div>
+            <form action="" method="" class="form--info" id="form--info">
+                <input type="text" name="" id="form--name" placeholder="Name">
+                <input type="email" name="" id="form--email" placeholder="Email">
+                <input type="tel" name="" id="form--number" placeholder="Phone number">
+                <button  type="submit" form="form--info" class="form--btn__bookNow">Book now</button>
+            </form>
+        </div>
+    </div>
+    <div class="block--white"></div>
+    <div class="branch">
+        <div class="branch--span"></div>
+        <div class="branch--title">
+            Locial
+        </div>
+        <div class="branch--content">Our Branch System</div>
+    </div>
+    <div class="branch--system">
+        <div class="branch--info">
+            <div class="branch--title">Ba Trieu</div>
+            <div class="branch--address">No.123 Ba Trieu, Hai Ba Trung, Ha Noi</div>
+            <div class="branch--direction"><a href="~">Direction</a></div>
+        </div>
+        <div class="branch--info">
+            <div class="branch--title">Nguyen Chi Thanh</div>
+            <div class="branch--address">No.123 Ba Trieu, Hai Ba Trung, Ha Noi</div>
+            <div class="branch--direction"><a href="~">Direction</a></div>
+        </div>
+        <div class="branch--info">
+            <div class="branch--title">Pham Ngoc Thach</div>
+            <div class="branch--address">No.123 Ba Trieu, Hai Ba Trung, Ha Noi</div>
+            <div class="branch--direction"><a href="~">Direction</a></div>
+        </div>
+        <div class="branch--info">
+            <div class="branch--title">Royal City</div>
+            <div class="branch--address">No.123 Ba Trieu, Hai Ba Trung, Ha Noi</div>
+            <div class="branch--direction"><a href="~">Direction</a></div>
+        </div>
+        <div class="branch--info">
+            <div class="branch--title">Cau Giay</div>
+            <div class="branch--address">No.123 Ba Trieu, Hai Ba Trung, Ha Noi</div>
+            <div class="branch--direction"><a href="~">Direction</a></div>
+        </div>
+    </div>
+    <div class="block--white"></div>
+    <div class="footer">
+        <div class="footer--left">
+            <div class="footer--title">PizzaNow Restaurant</div>
+            <div class="footer--social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+        <div class="footer--contact">
+            <p class="contact--title">Contact</p>
+            <p class="contact--numberPhone">012.3344.566</p>
+            <p class="contact--email">support@tempi.vn</p>
+        </div>
+        <div class="footer--opening">
+            <p class="opening--title">Opening Hours</p>
+            <p class="opening--day">Mon - Sun</p>
+            <p class="opening--time">9am - 11pm</p>
+        </div>
+        <div class="footer--right">
+            <div class="right--title">Locantion</div>
+            <div class="right--address">PeakView Tower, 36 Hoang Cau, Dong Da, Hanoi</div>
+        </div>
+    </div>
+</body>
+</html>
