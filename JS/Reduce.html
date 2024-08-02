@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reduce</title>
+</head>
+<body>
+    <script>
+        // const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        // Kết quả mong đợi: 30
+        // const sumNumber = numbers.reduce((acc,curr) => {
+        //     if(curr % 2){
+        //         return acc;
+        //     }
+        //     return acc+= curr;
+        // },0)
+        // console.log('Sum number: ->',sumNumber);
+
+        // const numbers = [23, 45, 12, 67, 89, 34, 56];
+        // Kết quả mong đợi: 89
+        // const maxNumber = numbers.reduce((acc,curr) => {
+        //     return Math.max(acc,curr);
+        // })
+        // console.log('Max number: ->',maxNumber);
+
+        const employess = [
+            {name: 'Duy Loc', interest: 'Reading Books'},
+            {name: 'Phuong Chi', interest: 'Listening Music'},
+            {name: 'Phan', interest: 'Reading Books'}
+        ];
+        const countInterest = employess.reduce((acc,curr) => {
+            acc[curr.interest] = (acc[curr.interest] || 0) + 1;
+            return acc;
+        },{})
+        console.log('Count interest: ->',countInterest);
+
+        const nestedArray = [1, [2, 3], [4, [5, 6]], 7, 8];
+        // Kết quả mong đợi: [1, 2, 3, 4, 5, 6, 7, 8]
+        const flattendArray = nestedArray.flat(Infinity);
+        console.log('Nested Object: ->', flattendArray);
+
+        const people = [
+        { name: 'Alice', age: 25 },
+        { name: 'Bob', age: 30 },
+        { name: 'Charlie', age: 25 },
+        { name: 'David', age: 30 }
+        ];
+        // Kết quả mong đợi: { 25: [{ name: 'Alice', age: 25 }, { name: 'Charlie', age: 25 }], 30: [{ name: 'Bob', age: 30 }, { name: 'David', age: 30 }] }
+        
+        const groupByPeople = people.reduce((acc,curr) => {
+            if(!acc[curr.age]){
+                acc[curr.age] = [];
+            }
+            acc[curr.age].push(curr);
+            return acc;
+        },{})
+        console.log('Group by people: ->', groupByPeople);
+
+        const cart = [
+        { name: 'Shirt', price: 20, quantity: 2 },
+        { name: 'Pants', price: 30, quantity: 1 },
+        { name: 'Shoes', price: 50, quantity: 1 }
+        ];
+        // Kết quả mong đợi: 120
+        const sumCart = cart.reduce((acc,curr) => {
+            return acc+= curr.price * curr.quantity;
+        },0)
+        console.log('Sum cart: ->',sumCart);
+
+        const words = ['apple', 'banana', 'cherry', 'date', 'elderberry'];
+        // Kết quả mong đợi: 'elderberry'
+        const maxLengthWords = words.reduce((acc,curr) => curr.length > acc.length ? curr:acc, '')
+        console.log('Max length: ->', maxLengthWords);
+
+        const createObjectWords = words.reduce((acc,curr) => {
+
+            return acc + ',' + curr;
+        })
+        console.log('Words: ->',createObjectWords);
+    </script>
+</body>
+</html>
