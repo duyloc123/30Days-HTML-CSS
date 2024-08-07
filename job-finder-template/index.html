@@ -12,6 +12,7 @@
     <script src="https://kit.fontawesome.com/db6ac4acea.js" crossorigin="anonymous"></script>
 
     <title>Job board HTML-5 Template</title>
+    <link rel="shortcut icon" href="assets/image/logo_title.png" type="image/x-icon">
 </head>
 <body>
     <!-- Header Start -->
@@ -61,9 +62,9 @@
                 <div class="input__form">
                     <input type="text" placeholder="Job Tittle or keyword">
                 </div>
-                <div class="select__form">
-                    <span>Location BD</span>
-                    <ul class="select__location">
+                <div class="select__form" id="select__form">
+                    <span id="selected">Location BD</span>
+                    <ul id="select__location" class="select__location">
                         <li data-value class="option">Location BD</li>
                         <li data-value class="option">Location BK</li>
                         <li data-value class="option">Location US</li>
@@ -288,12 +289,12 @@
             </div>
             <div class="process__job">
                 <div class="jobs__items">
-                    <img src="assets/image/headhunting.png" alt="Jobs">
+                    <img src="assets/image/searching.png" alt="Jobs">
                     <h2>1. Search a job</h2>
                     <span>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</span>
                 </div>
                 <div class="jobs__items">
-                    <img src="assets/image/job-description.png" alt="Jobs">
+                    <img src="assets/image/web-browser.png" alt="Jobs">
                     <h2>2. Apply a job</h2>
                     <span>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</span>
                 </div>
@@ -418,7 +419,7 @@
         </div>
      </div>
     <!-- Blogs End -->
-    <!-- Footer Start // Todo CSS / edit icon job -->
+    <!-- Footer Start -->
     <footer>
         <div class="footer__top">
             <div class="container">
@@ -427,6 +428,7 @@
                     <p>Heaven frucvitful doesn't cover lesser dvsays appear creeping seasons so behold.</p>
                 </div>
                 <div class="footer__contact--Info">
+                    <h2>Contact Info</h2>
                     <p>Address :Your address goes here, your demo address.</p>
                     <a href="">
                         Phone : +8880 44338899
@@ -436,23 +438,27 @@
                     </a>
                 </div>
                 <div class="footer__important--Link">
-                    <a href="">
-                        View Project
-                    </a>
-                    <a href="">
-                        Contact Us
-                    </a>
-                    <a href="">
-                        Testimonial
-                    </a>
-                    <a href="">
-                        Proparties
-                    </a>
-                    <a href="">
-                        Support
-                    </a>
+                    <h2>Important link</h2>
+                    <div class="footer__content">
+                        <a href="">
+                            View Project
+                        </a>
+                        <a href="">
+                            Contact Us
+                        </a>
+                        <a href="">
+                            Testimonial
+                        </a>
+                        <a href="">
+                            Proparties
+                        </a>
+                        <a href="">
+                            Support
+                        </a>
+                    </div>
                 </div>
                 <div class="footer__newsletter">
+                    <h2>Newsletter</h2>
                     <p>Heaven fruitful doesn't over lesser in days. Appear creeping.</p>
                     <div class="newsletter__email">
                         <input type="text" placeholder="Email Address" class="input__email">
@@ -462,17 +468,79 @@
                     </div>
                 </div>
             </div>
+            <div class="footer__center">
+                <div class="footer__image">
+                    <img src="assets/image/logo2_footer.png" alt="">
+                </div>
+                <div class="footer__title-bottom">
+                    <div class="footer__content-bottom">
+                        <span>5000+</span>
+                        <p>Talented Hunter</p>
+                    </div>
+                </div>
+                <div class="footer__title-bottom">
+                    <div class="footer__content-bottom">
+                        <span>451</span>
+                        <p>Talented Hunter</p>
+                    </div>
+                </div>
+                <div class="footer__title-bottom">
+                    <div class="footer__content-bottom">
+                        <span>568</span>
+                        <p>Talented Hunter</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="container">
+                    <div class="footer__border">
+                        <div class="footer__left">
+                            <p>Copyright ©2024 All rights reserved | This template is made with
+                                <i class="fa fa-heart"></i>
+                                by <span>Colorlib</span>
+                            </p>
+                        </div>
+                        <div class="footer__right">
+                            <div class="footer__social">
+                                <a href="">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fas fa-globe"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fab fa-behance"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="footer__bottom"></div>
     </footer>
+    <!-- Footer End -->
 </body>
 <script>
+    // Selected Location
+    const selectLocation = document.getElementById('select__location');
+    const locationSpan = document.getElementById('selected');
+
+    selectLocation.addEventListener('click',(event) => {
+        const clickLi = event.target;
+        if(clickLi.tagName === 'LI'){
+            const locationValue = clickLi.textContent;
+            locationSpan.textContent = locationValue;
+        }
+    });
 
     // Comment user (Fix animation)
     const commentUser = document.querySelectorAll('#comment__options');
     const displayComments = document.querySelectorAll('#items__top');
     let currentIndex = 0;
-    const autoSwitchInterval = 5000;
+    const autoSwitchInterval = 10000;
 
     function showComment(index) {
         displayComments.forEach(comment => {
