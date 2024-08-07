@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Muli" />
+    <script src="https://kit.fontawesome.com/db6ac4acea.js" crossorigin="anonymous"></script>
 
-    <title>Document</title>
+    <title>Job board HTML-5 Template</title>
 </head>
 <body>
+    <!-- Header Start -->
     <div class="header">
         <div class="header__logo">
             <img src="/assets/image/logo.png" alt="">
@@ -47,6 +49,8 @@
             <a href="" class="btn--login">Login</a>
         </div>
     </div>
+    <!-- Header End -->
+    <!-- Banner Start -->
     <div class="banner">
         <div class="banner__logo">
             <img src="assets/image/h1_hero.jpg" alt="image">
@@ -58,18 +62,458 @@
                     <input type="text" placeholder="Job Tittle or keyword">
                 </div>
                 <div class="select__form">
-                    <select name="" id="select__location">
-                        <option value="">Location BD</option>
-                        <option value="">Location PK</option>
-                        <option value="">Location US</option>
-                        <option value="">Location UK</option>
-                    </select>
+                    <span>Location BD</span>
+                    <ul class="select__location">
+                        <li data-value class="option">Location BD</li>
+                        <li data-value class="option">Location BK</li>
+                        <li data-value class="option">Location US</li>
+                        <li data-value class="option">Location UK</li>
+                    </ul>
                 </div>
                 <div class="btn__form">
-                    <button class="btn--find" type="submit">Find Job</button>
+                    <a href="" class="btn--findJob">Find Job</a>
                 </div>
             </form>
         </div>
     </div>
+    <!-- Banner End -->
+    <!-- Our Service -->
+     <div class="ourService">
+        <div class="container">
+            <div class="section__title">
+                <span>Featured tours packages</span>
+                <h2>Browse Top Categories</h2>
+            </div>
+            <div class="service">
+                <div class="single__services">
+                    <div class="services__icon">
+                        <i class="fa-solid fa-user-tie"></i>
+                    </div>
+                    <div class="services__cap">
+                        <h3>Design & Creative</h3>
+                        <span>(653)</span>
+                    </div>
+                </div>
+                <div class="single__services">
+                    <div class="services__icon">
+                        <i class="fa-solid fa-desktop"></i>
+                    </div>
+                    <div class="services__cap">
+                        <h3>Design & Development</h3>
+                        <span>(653)</span>
+                    </div>
+                </div>
+                <div class="single__services">
+                    <div class="services__icon">
+                        <i class="fa-solid fa-square-poll-vertical"></i>
+                    </div>
+                    <div class="services__cap">
+                        <h3>Sales & Marketing</h3>
+                        <span>(653)</span>
+                    </div>
+                </div>
+                <div class="single__services">
+                    <div class="services__icon">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <div class="services__cap">
+                        <h3>Mobile Application</h3>
+                        <span>(653)</span>
+                    </div>
+                </div>
+                <div class="single__services">
+                    <div class="services__icon">
+                        <i class="fa-solid fa-helmet-safety"></i>
+                    </div>
+                    <div class="services__cap">
+                        <h3>Construction</h3>
+                        <span>(653)</span>
+                    </div>
+                </div>
+                <div class="single__services">
+                    <div class="services__icon">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <div class="services__cap">
+                        <h3>Infomation Technology</h3>
+                        <span>(653)</span>
+                    </div>
+                </div>
+                <div class="single__services">
+                    <div class="services__icon">
+                        <i class="fa-solid fa-sign-hanging"></i>
+                    </div>
+                    <div class="services__cap">
+                        <h3>Real Estate</h3>
+                        <span>(653)</span>
+                    </div>
+                </div>
+                <div class="single__services">
+                    <div class="services__icon">
+                        <i class="fa-regular fa-pen-to-square"></i>
+                    </div>
+                    <div class="services__cap">
+                        <h3>Content Writer</h3>
+                        <span>(653)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="btn__browse">
+                <a href="">Browse All Sectors</a>
+            </div>
+        </div>
+     </div>
+    <!-- Our Service End  -->
+    <!-- CV Online Start -->
+     <div class="onlineCV">
+        <div class="container">
+            <div class="onlineCV_content">
+                <span>Featured Tours Packages</span>
+            </div>
+            <div class="onlineCV_title">
+                <h2>Make a Difference with Your Online Resume! </h2>
+            </div>
+            <div class="btn__uploadCV">
+                <a href="">Upload your CV</a>
+            </div>
+        </div>
+     </div>
+    <!-- CV Online End -->
+    <!-- Featured Job Start -->
+    <div class="feature-job">
+        <div class="container">
+            <div class="feature__title">
+                <span>Recent Job</span>
+                <h2>Featured Jobs</h2>
+            </div>
+            <div class="feature__items">
+                <div class="single__items">
+                    <div class="job__items">
+                        <div class="company__image">
+                            <img src="assets/image/job-list1.png" alt="">
+                        </div>
+                        <div class="job__title">
+                            <a href="">
+                                Digital Marketer
+                            </a>
+                            <ul>
+                                <li>Creative Agency</li>
+                                <li><i class="fa-solid fa-location-dot"></i>
+                                    Athens, Geece</li>
+                                <li>$3500 - $4000</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="items__right">
+                        <a href="">Full Time</a>
+                        <span>7 hours ago</span>
+                    </div>
+                </div>
+                <div class="single__items">
+                    <div class="job__items">
+                        <div class="company__image">
+                            <img src="assets/image/job-list2.png" alt="">
+                        </div>
+                        <div class="job__title">
+                            <a href="">
+                                Digital Marketer
+                            </a>
+                            <ul>
+                                <li>Creative Agency</li>
+                                <li><i class="fa-solid fa-location-dot"></i>
+                                    Athens, Geece</li>
+                                <li>$3500 - $4000</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="items__right">
+                        <a href="">Full Time</a>
+                        <span>7 hours ago</span>
+                    </div>
+                </div>
+                <div class="single__items">
+                    <div class="job__items">
+                        <div class="company__image">
+                            <img src="assets/image/job-list3.png" alt="">
+                        </div>
+                        <div class="job__title">
+                            <a href="">
+                                Digital Marketer
+                            </a>
+                            <ul>
+                                <li>Creative Agency</li>
+                                <li><i class="fa-solid fa-location-dot"></i>
+                                    Athens, Geece</li>
+                                <li>$3500 - $4000</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="items__right">
+                        <a href="">Full Time</a>
+                        <span>7 hours ago</span>
+                    </div>
+                </div>
+                <div class="single__items">
+                    <div class="job__items">
+                        <div class="company__image">
+                            <img src="assets/image/job-list4.png" alt="">
+                        </div>
+                        <div class="job__title">
+                            <a href="">
+                                Digital Marketer
+                            </a>
+                            <ul>
+                                <li>Creative Agency</li>
+                                <li><i class="fa-solid fa-location-dot"></i>
+                                    Athens, Geece</li>
+                                <li>$3500 - $4000</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="items__right">
+                        <a href="">Full Time</a>
+                        <span>7 hours ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured Job End -->
+    <!-- Apply Process Start  -->
+     <div class="apply__process">
+        <div class="container">
+            <div class="process__title">
+                <span>Apply Process</span>
+                <h2>How it works</h2>
+            </div>
+            <div class="process__job">
+                <div class="jobs__items">
+                    <img src="assets/image/headhunting.png" alt="Jobs">
+                    <h2>1. Search a job</h2>
+                    <span>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</span>
+                </div>
+                <div class="jobs__items">
+                    <img src="assets/image/job-description.png" alt="Jobs">
+                    <h2>2. Apply a job</h2>
+                    <span>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</span>
+                </div>
+                <div class="jobs__items">
+                    <img src="assets/image/tour-guide.png" alt="Jobs">
+                    <h2>3. Get your job</h2>
+                    <span>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</span>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Apply Process End  -->
+    <!-- Comment user  -->
+     <div class="comment__user">
+       <div class="container">
+        <div id="items__top" class="active" >
+            <div class="items__icon">
+                <img src="assets/image/testimonial-founder.png" alt="">
+            </div>
+            <div class="items__title">
+                <h2>Margaret Lawson</h2>
+                <span>Creative Director</span>
+            </div>
+            <div class="items__content">
+                <span>"I am at an age where I just want to be fit and healthy our bodies are our responsibily! So start caring for your body and it will care for you. Eat clean it will care for you and workout hard."</span>
+            </div>
+        </div>
+        <div id="items__top">
+            <div class="items__icon">
+                <img src="assets/image/testimonial-founder.png" alt="">
+            </div>
+            <div class="items__title">
+                <h2>Margaret Lawson 2</h2>
+                <span>Creative Director</span>
+            </div>
+            <div class="items__content">
+                <span>"I am at an age where I just want to be fit and healthy our bodies are our responsibily! So start caring for your body and it will care for you. Eat clean it will care for you and workout hard."</span>
+            </div>
+        </div>
+        <div id="items__top">
+            <div class="items__icon">
+                <img src="assets/image/testimonial-founder.png" alt="">
+            </div>
+            <div class="items__title">
+                <h2>Margaret Lawson 3</h2>
+                <span>Creative Director</span>
+            </div>
+            <div class="items__content">
+                <span>"I am at an age where I just want to be fit and healthy our bodies are our responsibily! So start caring for your body and it will care for you. Eat clean it will care for you and workout hard."</span>
+            </div>
+        </div>
+        <div class="items__bottom">
+            <ul>
+                <li id="comment__options"></li>
+                <li id="comment__options"></li>
+                <li id="comment__options"></li>
+            </ul>
+        </div>
+       </div>
+     </div>
+     <!-- Support Company Start -->
+      <div class="support__company">
+        <div class="container">
+            <div class="support__post">
+                <div class="post__title">
+                    <span>What we are doing</span>
+                    <h2>24k Talented people are gettings Jobs</h2>
+                </div>
+                <div class="post__caption">
+                    <p class="caption__top">Mollit anim laborum duis au dolor in voluptate velit ess cillum dolore eu lore dsu quality mollit anim laborumuis au dolor in voluptate velit cillum.</p>
+                    <p>Mollit anim laborum.Duis aute irufg dhjkolohr in re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur signjnt occa cupidatat non inulpadeserunt mollit aboru. temnthp incididbnt ut labore mollit anim laborum suis aute.</p>
+                    <a href="" class="btn btn__post">Post A Job</a>
+                </div>
+            </div>
+            <div class="support__image">
+                <img src="assets/image/support-img.jpg" alt="">
+                <div class="supportImg__cap">
+                    <p>Since</p>
+                    <span>1994</span>
+                </div>
+            </div>
+          </div>
+      </div>
+    <!-- Support Company End -->
+    <!-- Blogs Start -->
+     <div class="blog__new">
+        <div class="container">
+            <div class="blog__title">
+                <p>Our latest blog</p>
+                <h2>Our recent news</h2>
+            </div>
+            <div class="blog__list">
+               <div class="section__blog">
+                    <div class="content__img">
+                        <img src="assets/image/home-blog1.jpg" alt="">
+                        <div class="content__date">
+                            <h3>24</h3>
+                            <p>Now</p>
+                        </div>
+                    </div>
+                    <div class="blog__content">
+                        <p>| Properties</p>
+                        <h3>Footprints in Time is perfect House in Kurashiki</h3>
+                        <a href="">Read more >></a>
+                    </div>
+               </div>
+               <div class="section__blog">
+                    <div class="content__img">
+                        <img src="assets/image/home-blog2.jpg" alt="">
+                        <div class="content__date">
+                            <h3>24</h3>
+                            <p>Now</p>
+                        </div>
+                    </div>
+                    <div class="blog__content">
+                        <p>| Properties</p>
+                        <h3>Footprints in Time is perfect House in Kurashiki</h3>
+                        <a href="">Read more >></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Blogs End -->
+    <!-- Footer Start // Todo CSS / edit icon job -->
+    <footer>
+        <div class="footer__top">
+            <div class="container">
+                <div class="footer__about">
+                    <h2>About Us</h2>
+                    <p>Heaven frucvitful doesn't cover lesser dvsays appear creeping seasons so behold.</p>
+                </div>
+                <div class="footer__contact--Info">
+                    <p>Address :Your address goes here, your demo address.</p>
+                    <a href="">
+                        Phone : +8880 44338899
+                    </a>
+                    <a href="">
+                        Email : info@colorlib.com
+                    </a>
+                </div>
+                <div class="footer__important--Link">
+                    <a href="">
+                        View Project
+                    </a>
+                    <a href="">
+                        Contact Us
+                    </a>
+                    <a href="">
+                        Testimonial
+                    </a>
+                    <a href="">
+                        Proparties
+                    </a>
+                    <a href="">
+                        Support
+                    </a>
+                </div>
+                <div class="footer__newsletter">
+                    <p>Heaven fruitful doesn't over lesser in days. Appear creeping.</p>
+                    <div class="newsletter__email">
+                        <input type="text" placeholder="Email Address" class="input__email">
+                        <a href="" class="btn--emalil" id="btn--emalil">
+                            <img src="assets/image/form.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom"></div>
+    </footer>
 </body>
+<script>
+
+    // Comment user (Fix animation)
+    const commentUser = document.querySelectorAll('#comment__options');
+    const displayComments = document.querySelectorAll('#items__top');
+    let currentIndex = 0;
+    const autoSwitchInterval = 5000;
+
+    function showComment(index) {
+        displayComments.forEach(comment => {
+            comment.classList.remove('active');
+        });
+        
+        displayComments[index].classList.add('active');
+        
+        commentUser.forEach((item, i) => {
+            if (i === index) {
+                item.classList.add('selected');
+            } else {
+                item.classList.remove('selected');
+            }
+        });
+        
+        currentIndex = index;
+    }
+
+    commentUser.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            showComment(index);
+            resetAutoSwitch();
+        });
+    });
+
+    function autoSwitch() {
+        currentIndex = (currentIndex + 1) % displayComments.length;
+        showComment(currentIndex);
+    }
+
+    function resetAutoSwitch() {
+        clearInterval(autoSwitchInterval);
+        autoSwitchInterval = setInterval(autoSwitch, autoSwitchInterval);
+    }
+
+        showComment(0);
+        let autoSwitchIntervalId = setInterval(autoSwitch, autoSwitchInterval);
+
+        document.addEventListener('DOMContentLoaded', () => {
+            showComment(0);
+        });
+</script>
 </html>
